@@ -35,7 +35,7 @@ void delay_init(uint32_t cpu_hz)
  *
  * @return Time in ms
  */
-uint32_t millis(void)
+uint32_t delay_millis(void)
 {
     return s_ticks;
 }

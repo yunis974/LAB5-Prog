@@ -4,8 +4,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define PCA9685_SERVO_MIN 205   // ~1 ms → 0°
-#define PCA9685_SERVO_MAX 410   // ~2 ms → 180°
+#define PCA9685_SERVO_MIN 105   // ~1 ms → 0°
+#define PCA9685_SERVO_MAX 610   // ~2 ms → 180°
 #define PCA9685_CH_MAX 15
 #define PCA9685_PWM_MAX 4095
 #define PCA9685_ADDR 0x40

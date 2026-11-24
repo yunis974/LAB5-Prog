@@ -18,7 +18,7 @@ typedef struct
 } STK_t;
 
 void     delay_init(uint32_t cpu_hz);
-uint32_t millis(void);
+uint32_t delay_millis(void);
 void     delay_ms(uint32_t ms);
 
 

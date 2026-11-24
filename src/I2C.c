@@ -1,9 +1,14 @@
+/**
+ * @file    I2C.c
+ * @brief   I2C baremetal for STM32F103
+ * @author  Yûnis Sebany
+ * @date    2026-11-24
+ */
+
+
 #include "I2C.h"
 #include "gpio.h"
 #include "RCC.h"
-
-
-
 
 
 /**
@@ -153,8 +158,6 @@ bool I2C_WriteRegister(uint8_t address, uint8_t reg, uint8_t data)
     {
         return false;
     }
-
-
 
     (void)I2C1->SR1;
     (void)I2C1->SR2;
